@@ -14,7 +14,7 @@ SECRET_KEY = 'django-insecure-___&bl^riw1^js7b3&&&4^54o70b_&^6lw0s4+!@2tc!hoah#&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.herokuapp.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -96,8 +96,8 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-#TIME_ZONE = 'Nairobi/Africa'
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Africa/Nairobi'
+#TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
